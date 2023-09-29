@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Stock {
-    private List<ProductoEnStock> stock = new ArrayList<>();;
+    private List<ProductoEnStock> stock = new ArrayList<>();
 
     public void agregarAlStock(ProductoEnStock producto) {
         stock.add(producto);

@@ -20,7 +20,6 @@ public class Ejecutor {
                         agregarAlStock(enStock);
                         break;
                     case 2:
-                        System.out.println("Ingrese el producto que desea pedir");
                         realizarPedido(enStock);
                         break;
                     case 3:

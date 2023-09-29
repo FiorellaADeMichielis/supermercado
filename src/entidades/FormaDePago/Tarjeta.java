@@ -15,21 +15,14 @@ public class Tarjeta extends FormaDePago{
                 System.out.println("Ingrese su número de tarjeta: ");
                 tarjeta = lectura.nextLong();
                 lectura.nextLine();
-                validez = true;
-            } catch (InputMismatchException e) {
-                System.out.println("El número de tarjeta no es válido. Intente de nuevo.");
-                lectura.nextLine();
-            }
-        }
-        validez = false;
-        while (!validez) {
-            try {
+
                 System.out.println("Ingrese su PIN: ");
                 pin = lectura.nextInt();
                 lectura.nextLine();
+
                 validez = true;
             } catch (InputMismatchException e) {
-                System.out.println("El PIN ingresado no es válido. Intente de nuevo.");
+                System.out.println("El dato ingresado no es válido. Intente de nuevo.");
                 lectura.nextLine();
             }
         }
